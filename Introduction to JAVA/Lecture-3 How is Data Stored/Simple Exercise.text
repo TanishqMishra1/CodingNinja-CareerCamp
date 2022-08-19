@@ -1,0 +1,50 @@
+Question-1
+    Short Data Type
+    Short data type has a minimum value of -
+Answer-1
+    b. -32,767
+
+
+
+Question-2
+    Byte 
+    Range of byte data type is ?
+Answer-2
+    c. -128 to 127
+
+
+
+Question-3
+    Check for errors
+    Will following statement give an error ?
+    float f = 1.4;    
+Answer-3
+    a. yes
+
+
+
+Question-4
+    Figure out output
+    What will be the output of the following statement ?
+    System.out.println('a' + 1);
+Answer-4
+    98
+
+
+
+Question-5
+    Figure the output
+    What will be the output ?
+    int i = 'c';
+    System.out.println(i);
+Answer-5
+    99
+
+
+
+Question-6
+    Automatic type Conversion
+    Automatic type conversion in Java takes place when :
+Answer-6
+    b. Two types are compatible and size of destination type is larger than source type.    
+
