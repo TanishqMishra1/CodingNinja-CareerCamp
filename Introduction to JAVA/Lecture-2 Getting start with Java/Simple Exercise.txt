@@ -1,0 +1,89 @@
+Question-1
+    Size of long
+        Primitive data type 'long' is having size _______ byte(s) in Java Programming.
+Answer-1
+        8
+
+
+
+Question-2
+    Datatype
+        Which of the following data type stores longest decimal number ?
+Answer-2
+    3- Double.    
+
+
+
+Question-3
+    Boolean Variable
+        Which of these values can be assigned to a boolean variable in Java?
+Answer-3
+    3- true or false
+
+
+
+Question-4
+    Valid Variable number
+        Which of these is a valid variable name ?
+Answer-4
+    2- var1
+
+
+
+Question-5
+    Unintialized Local Variable
+        Compiler never assigns a default value to an uninitialized local variable in Java Programming. Whether this statement is true or false ?          
+Answer-5
+    1- True
+
+
+
+Question-6
+    Predict the output
+    What is the output of the following code if the input is : 5 10 ?
+    Scanner s = new Scanner(System.in);
+    int a = s.nextInt();
+    int b = s.nextInt();
+    System.out.println(a+b);
+Answer-6
+    3- 15
+
+
+
+Question-7
+    Predict the String output
+    What is the output of the following code if the input string is "Coding Ninjas"?
+    Scanner s = new Scanner(System.in);
+    String str;
+    str = s.next();
+    System.out.print(str);
+Answer-7
+    2- Coding
+
+
+
+Question-8 
+    Multiple Inputs
+    What is the output of the following code if input is :
+    10 abc def
+
+    Scanner s = new Scanner(System.in);
+    int a = s.nextInt();
+    String str = s.next();
+    System.out.print(a);
+    System.out.println(str);
+Answer-8
+    2 - 10abc
+
+
+
+Question-9
+    Integer and string 
+    What is the output of the following code if input is : abc def 10
+    Scanner s = new Scanner(System.in);
+    String str = s.next();
+    int a = s.nextInt();
+    System.out.print(str + " " + a);        
+
+Answer-9
+    3- Input Mismatch Exception
