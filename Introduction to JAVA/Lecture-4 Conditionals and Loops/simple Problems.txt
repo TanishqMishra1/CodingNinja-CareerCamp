@@ -1,0 +1,404 @@
+Question-1
+    Error in code
+    What is the error in this code?
+    byte b = 50;
+    b = b * 50;
+Answer-1
+    b. * operator hav converted b *50 into int , which can not be converted to byte without casting.
+
+
+
+Question-2
+    Find the output 
+    public class  Solution{
+        public static void main(String [] args)  {
+            double a = 6 / 4;
+            int b  = 6 / 4;
+            double c = a + b;
+            System.out.println(c);
+        }
+    }
+Answer-2
+    c. 2.0    
+
+   
+
+Question-3
+    Predict the output
+    public class  Solution{
+        public static void main(String [] args)  {
+            double a = 55.5;
+            int b = 55;
+            a = a % 10;
+            b = b % 10;
+            System.out.println(a + " "  + b);
+          }
+     }
+     
+Answer-3
+    b. 5.5 5
+    
+    
+
+Question-4
+     Predict the output
+     public class  Solution {
+        public static void main(String [] args)  {
+            int var1 = 5;
+            int var2 = 6;
+            System.out.print(var1 > var2);
+        }
+    }
+Answer-4
+    b. false
+    
+    
+
+Question-5
+    Find output 
+        public static void main(String args[])
+    {
+        int a=10,b=15;
+        if(a>b)
+        {
+            System.out.print("a ");
+        }
+        else
+        {
+            System.out.print("b ");
+        }
+        System.out.print("is greater");
+    }    
+Answer-5
+    d. b is greater
+
+
+
+Question-6
+    Find output
+    int a=50;
+    if(a>10)
+    {
+        System.out.print("Coding");
+    }
+    else(a>20)
+    {
+        System.out.print("Ninjas");
+    }
+Answer-6
+    d. Compile time error    
+
+
+
+Question-7
+    Find the output
+        public static void main(String args[])
+    {
+            int x = 5; 
+            if (x < 6)
+                System.out.print("Hello  ");
+            if(x == 5){
+                System.out.print("Hi  ");
+            }
+            else{ 
+                System.out.print("Hey ");
+            } 
+    }    
+Answer-7
+    d. Hello Hey
+
+
+
+Question-8
+    Find the output
+    public static void main(String[] args) {
+        int x = 15;
+        if(x <= 15){
+            System.out.print("Inside if  ");
+        }else if(x == 15){
+            System.out.print("Inside else if  ");
+        }
+        System.out.println(x);
+    }
+Answer-8
+    c. Inside if 15    
+    
+
+   
+Question-9    
+    Find the output
+    public static void main(String args[])
+    {
+        int var1 = 5; 
+        int var2 = 6;
+        if ((var2 = 1) == var1)
+            System.out.print(var2);
+        else 
+            System.out.print(var2 + 1);
+    }    
+Answer-9
+    c. 2
+
+
+
+Question-10
+    Positive & Negative
+    Let a and b are the two integers. Which option can be used to check out of two numbers one is positive and the other is negative    
+Answer-10
+    d. a*b < 0
+
+
+
+Question-11
+    Find output
+    public static void main (String[] args) {
+        int a=50;
+        int b=Integer.MIN_VALUE;
+        if(a/0==b)
+        {
+    
+            System.out.println("Hello");
+        }
+        else
+        {
+            System.out.println("Hi");
+        }
+    }
+Answer-11
+    d. Run time error
+
+
+
+Question-12
+    Find output
+    public static void main (String[] args) {
+        int a=50,b=20;
+        if(a>b)
+        {
+            if(a>100)
+                System.out.println("Ace");
+            if(b<100)
+                b=50;
+        }
+        else if(a==b)
+        {
+            System.out.println("King");
+        }
+        else 
+        {
+            System.out.println("Queen");
+        }
+    }
+Answer-12
+    a. No output
+    
+    
+
+Question-13
+    Find output 
+    public static void main (String[] args) {
+        int i=0;
+        while(i<10)
+        {
+            i=i+1;
+            System.out.print(i);
+            i=i+1;
+        }
+     }
+Answer-13
+    13579
+    
+    
+
+Question-14
+     Number of hello
+     public static void main (String[] args) {
+        int x=5;
+        int y=5;
+        while((x=5)==y)
+        {
+            System.out.println("Hello");
+            x++;
+            y++;
+        }
+    }
+Answer-14
+    c. One
+
+
+
+Question-15
+    Number of hello-2
+    public static void main (String[] args) {
+        int x=5;
+        int y=5;
+        while(x==y)
+        {
+            System.out.println("Hello");
+            x++;
+            y++;
+        }
+    }
+Answer-15
+    b. Infinite
+
+
+ 
+Question-16
+    Same output
+    1
+        int i=1;
+        while(i<5)
+        {
+            System.out.print(2*i);
+            i=i+1;
+        }
+    2
+       int i=2;
+       while(i<10)
+       {
+           System.out.print(i);
+           i=i+2;
+       }
+    3
+       int i=2;
+       while(i<10)
+       {
+           System.out.print(i);
+           i*=2;
+       }
+    4
+       int i=10;
+       while(i>0)
+       {
+           if(i%2==0)
+           {
+               System.out.print(10-i);
+           }
+           i--;
+       }    
+Answer-16
+       c. 1 2
+
+
+     
+Question-17
+    Primality Check
+    public static void main (String[] args) {
+        Scanner s=new Scanner (System.in);
+        int n=s.nextInt();
+        boolean isprime=true;
+        if(n%2==0)
+            isprime=false;
+        int i=3;
+        while(isprime&&i<n)
+        {
+            isprime=!(n%i==0);
+            i+=2;
+        }
+        if(isprime)
+        {
+            System.out.println("Prime");
+        }
+        else
+        {
+            System.out.println("Composite");
+        }
+    
+    }       
+Answer-17
+    b. no
+   
+
+
+Question-18
+    Find output
+    int i=10;
+    while((i=i-1)>0)
+    {
+        System.out.print(i);
+        if(i%5==0)
+            return;
+    }    
+Answer-18
+    98765
+    
+    
+
+Question-19
+    Check the error 
+    public class Main {
+        public static void main(String[] args) {
+            int a = 10;
+            if(a > 5) {
+                int b = 10;
+            }
+            System.out.println(b);
+        }
+    }    
+Answer-19
+    a. Yes
+
+
+
+Question-20
+    Check error
+    public class Main {
+        public static void main(String[] args) {
+            int a = 10;
+            if(a > 5) {
+                a = 100;
+            }
+            System.out.println(a);
+        }
+    }
+Answer-20
+    b. No
+    
+    
+
+Question-21
+    Check error 
+    public class Main {
+        public static void main(String[] args) {
+            int a = 10;
+            if(a > 5) {
+                int a = 100;
+            }
+            System.out.println(a);
+        }
+    }
+Answer-21
+    a. Yes 
+    
+    
+
+Question-22
+    Check error
+    public class Main {
+        public static void main(String[] args) {
+        for(int i = 0; i < 3; i++) {
+            System.out.print(i + " ");
+            }
+        System.out.print(i + " ");
+        }
+    }
+Answer-22
+    a. Yes        
+
+
+
+Question- 23
+    Find output
+    public class Main {
+        public static void main(String[] args) {
+        int a = 10;
+        while(a > 5) {
+            int b = 1;
+            System.out.print(b + " ");
+            a--;
+        }
+        }
+    }
+Answer-23
+    1 1 1 1 1
